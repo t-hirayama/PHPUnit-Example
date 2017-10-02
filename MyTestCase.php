@@ -18,13 +18,13 @@ class MyTestCase extends PHPUnit_Framework_TestCase
     public function test_sub()
     {
         $calc = new Calculator();
-        $this->assertEquals( 4, $calc->sub( 6, 2));
+        $this->assertEquals( 4, $calc->sub( 6, 3));
     }
 
     public function test_mul()
     {
         $calc = new Calculator();
-        $this->assertEquals( 12, $calc->mul( 6, 2));
+        $this->assertEquals( 12, $calc->mul( 6, 3));
     }
 
     public function test_div()
